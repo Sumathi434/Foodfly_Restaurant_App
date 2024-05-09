@@ -4,11 +4,11 @@ import { API_URL } from "../api";
 import Topbar from "../Components/Topbar";
 
 function UserCart() {
-    const { cartItems, addToCart , removeFromCart} = useCart();
+    const { cartItems, removeFromCart } = useCart();
   
-    const handleRemove = (item)=>{
-        removeFromCart(item)
-    }
+    const handleRemove = (index) => {
+        removeFromCart(cartItems[index]);
+    };
 
     return (
         <>
@@ -34,7 +34,7 @@ function UserCart() {
                                 </div>
                             </div>
                             <div className='removebtn'>
-                                <p onClick={()=>handleRemove(item)}>Remove</p>
+                                <p onClick={() => handleRemove(index)}>Remove</p>
                             </div>
                         </div>
                     ))}
