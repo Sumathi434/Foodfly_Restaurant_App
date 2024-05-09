@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSearch, faUser, faUtensils, faBars, faTimes, faShoppingCart } from '@fortawesome/free-solid-svg-icons';
+import { faSearch, faUser, faUtensils, faBars, faTimes, faShoppingCart} from '@fortawesome/free-solid-svg-icons';
 import {Link} from 'react-router-dom'
+import {useCart} from './Cart'
 
 function Topbar() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const {cartItems} = useCart()
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
@@ -35,9 +37,12 @@ function Topbar() {
 
         {/* Add to cart */}
          
-         <div className='cart'>
+        <Link to="/cart" className='addCart'>
+        <div className='cart'>
           <b><FontAwesomeIcon icon={faShoppingCart}/>Cart</b>
+          <span>{cartItems.length}</span>
          </div>
+        </Link>
 
 
         {/* Hamburger Menu Icon */}
@@ -55,7 +60,9 @@ function Topbar() {
         <div className='mobile-menu'>
           <p>Login</p>
           <p>SignUp</p>
+          <Link to="/cart" className='addCart'>
           <p><FontAwesomeIcon icon={faShoppingCart}/>Cart</p>
+          </Link>
         </div>
       )}
     </>

@@ -253,5 +253,18 @@
         font-weight: bold;
 
     }
-
+    .cart-items{
+        width:90%;
+    
+    }
+    .nextLine{
+       font-size: 0.8em;
+       padding-left: 1em;
+    }
+    .cart-img img{
+       padding-top: 0.4em;
+    }
+    .price-product h2{
+        font-size: 1em;
+    }
 }
