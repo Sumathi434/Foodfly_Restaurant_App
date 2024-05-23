@@ -253,18 +253,295 @@
         font-weight: bold;
 
     }
-    .cart-items{
-        width:90%;
-    
+
+    .cart-items {
+        width: 90%;
+
     }
-    .nextLine{
-       font-size: 0.8em;
-       padding-left: 1em;
+
+    .nextLine {
+        font-size: 0.8em;
+        padding-left: 1em;
     }
-    .cart-img img{
-       padding-top: 0.4em;
+
+    .cart-img img {
+        padding-top: 0.4em;
     }
-    .price-product h2{
+
+    .price-product h2 {
+        font-size: 1em;
+    }
+}
+
+/* Tablet responsive design */
+
+@media screen and (max-width: 1024px) {
+    .container {
+        width: 90%;
+    }
+
+    .menu-icon {
+        display: block;
+        font-size: 1.5rem;
+        margin-right: -6em;
+
+    }
+
+    .mobile-menu {
+        font-size: 1.2em;
+        padding: 1.1em;
+    }
+
+    .logo h2 {
+        font-size: 1.2em;
+        margin-left: -8em;
+    }
+
+    .search-bar {
+        display: none;
+    }
+
+    .cart {
+        display: none;
+    }
+
+    .userAuth {
+        display: none;
+    }
+
+
+    /* items section */
+    .btn-items {
+        margin: 1em 1em;
+    }
+
+    .btn-items button {
+        padding: 5px;
+        margin: auto;
+    }
+
+    .itemGallery img {
+        width: 100px;
+    }
+
+    .itemHeading {
+        font-size: 1em;
+        margin: 1em 1em;
+    }
+
+    .imageSection {
+        max-width: 96%;
+        margin-top: 1em;
+        margin-left: 0.5em;
+
+    }
+
+
+    /* chain Section */
+    .chainsHeading {
+        font-size: 1em;
+        margin: 1em 1em;
+    }
+
+    .btn button {
+        padding: 5px;
+        margin-right: 0.5em;
+        margin-left: -1em;
+    }
+
+    .chainSection {
+        margin: 0 0.2em;
+        margin-top: 1em;
+    }
+
+    .vendorData img {
+        width: 330px;
+        height: 200px;
+    }
+
+    .firmName {
+        font-size: 1em;
+
+    }
+
+    .chainsfirm ul li {
+        list-style-type: none;
+    }
+
+    .chainsfirm .category,
+    .area {
+        font-size: 1em;
+        width: 50%
+    }
+
+    /* firmCollections section */
+    .firmChainSection {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+        margin-top: 3em;
+    }
+
+    .firmHeading {
+        margin: 1em 1em;
+        font-size: 1em;
+    }
+
+    .sectionFirm img {
+        width: 300px;
+        height: 190px;
+        max-width: 100%;
+        display: block;
+        margin: auto;
+        margin-top: 1em;
+
+    }
+
+    .firmDetails .firmname {
+        font-weight: bold;
+
+    }
+
+    .firmDetails .firmname,
+    .firmDetails .cateArea {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 0.9em;
+
+    }
+
+    .firmDetails .cateArea {
+        width: 60%;
+    }
+
+
+    /* filterbuttons */
+    .filterButton {
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2em;
+
+    }
+
+    .filterButton button {
+        padding: 0.6em 1em;
+        font-size: 1em;
+    }
+
+    /* footer section */
+    .footerHeader {
+        width: 100%;
+        max-width: 60%;
+        display: block;
+        text-align: center;
+    }
+
+    .appImage img {
+        display: none;
+    }
+
+    .footerBelowsection {
+        margin-top: -3em;
+
+    }
+
+    .allsections {
+        height: 100%;
+        display: block;
+        margin: 2em 5em;
+        padding-bottom: 2em;
+    }
+
+    .footerHeader h2 {
+        font-size: 1em;
+    }
+
+    .section1 {
+        margin-top: 0em;
+        text-align: center;
+
+    }
+
+    .section1 h2 {
+        padding-top: 1em;
+        margin-top: 2em;
+        text-align: center;
+    }
+
+    .section2 {
+        margin-top: 2em;
+        text-align: center;
+    }
+
+    .section3 {
+        margin-top: 2em;
+        text-align: center;
+    }
+
+    .section4 {
+        margin-top: 2em;
+        text-align: center;
+    }
+
+    .allsections ul li h3 {
+        margin-top: 2em;
+        text-align: center;
+        color: white;
+    }
+
+    /* products section */
+    .productData {
+        padding: 0;
+    }
+
+    .productHeading {
+        margin: 1em 0;
+        font-size: 0.9em;
+    }
+
+    .firmHead {
+        margin: 0.3em 0.3em;
+        font-size: 1.2em;
+    }
+
+    .productSection img {
+        width: 130px;
+        height: 120px;
+    }
+
+    .description {
+        width: 120px;
+        font-size: 0.7em;
+    }
+
+    .addbtn {
+        max-width: 4.5em;
+        padding: 0.3em 0;
+        bottom: 0;
+        background-color: white;
+        margin-left: 1.8em;
+        font-weight: bold;
+
+    }
+
+    .cart-items {
+        width: 90%;
+
+    }
+
+    .nextLine {
+        font-size: 0.8em;
+        padding-left: 1em;
+    }
+
+    .cart-img img {
+        padding-top: 0.4em;
+    }
+
+    .price-product h2 {
         font-size: 1em;
     }
 }
