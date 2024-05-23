@@ -275,7 +275,7 @@
 
 /* Tablet responsive design */
 
-@media screen and (max-width: 1024px) {
+@media (min-width: 600px) and (max-width: 1024px) {
     .container {
         width: 90%;
     }
