@@ -150,13 +150,14 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 2em;
-
     }
 
     .filterButton button {
         padding: 0.6em 1em;
-        font-size: 0.5em;
+        font-size: 0.7em;
         font-weight: 600;
+        padding: 1em 0;
+
     }
 
     /* footer section */
