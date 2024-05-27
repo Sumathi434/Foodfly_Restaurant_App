@@ -132,7 +132,12 @@
     .firmDetails .firmname,
     .firmDetails .cateArea {
         font-size: 0.9em;
-
+        margin:0 auto;
+        width:100%;
+        max-width: 70%;
+    }
+    .firmDetails .cateArea{
+        margin:0 auto; 
     }
 
     /* filterbuttons */
@@ -391,16 +396,9 @@
     .firmDetails .firmname,
     .firmDetails .cateArea {
         width: 100%;
-        text-align: center;
-        margin: 0 auto;
         font-size: 0.9em;
-
+        max-width: 60%;
     }
-
-    .firmDetails .cateArea {
-        width: 60%;
-    }
-
 
     /* filterbuttons */
     .filterButton {
