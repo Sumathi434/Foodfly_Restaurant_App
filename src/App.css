@@ -75,7 +75,7 @@ body {
 .cart {
     font-weight: 700;
     font-size: 1.3em;
-    color:black;
+    color: black;
 }
 
 /* items section */
@@ -220,6 +220,7 @@ body {
     text-transform: uppercase;
 }
 
+
 /* firmCollections section */
 .linkfirm {
     text-decoration: none;
@@ -235,13 +236,18 @@ body {
 }
 
 .sectionFirm img {
-    width: 239px;
+    width: 250px;
     height: 180px;
     flex: 0 0 auto;
     margin-left: 2.3em;
     object-fit: cover;
     border-radius: 1em;
+    transition: transform 0.3s ease;
 
+}
+
+.sectionFirm img:hover {
+    transform: scale(0.95);
 }
 
 
@@ -365,7 +371,7 @@ body {
 }
 
 .filterButton .activeButton {
-    background-color: rgb(154, 105, 14);
+    background-color: darkgreen;
     color: white;
 }
 
@@ -441,11 +447,12 @@ body {
 
 .section1 {
     margin-top: -10em;
-    color: white;
+    color: rgb(208, 200, 200);
+
 }
 
 .section1 h2 {
-    color: rgb(208, 200, 200);
+    color: white;
 }
 
 .section2 {
@@ -461,52 +468,61 @@ body {
 }
 
 /* cartSection */
-.cart-items{
-    display:flex;
+.cart-items {
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    border:1px solid gray;
-    margin:2em auto;
-    width:70%;
+    border: 1px solid gray;
+    margin: 2em auto;
+    width: 70%;
 
 }
-.nextLine{
-    display:flex;
+
+.nextLine {
+    display: flex;
     flex-direction: column;
-   width:60%;
+    width: 60%;
 }
-.cart-img img{
-    width:120px;
-    height:100px;
+
+.cart-img img {
+    width: 120px;
+    height: 100px;
     border-radius: 0.4em;
     padding-left: 0.4em;
 }
-.cart-details h2{
-font-weight: 300;
-font-size: 1em;
+
+.cart-details h2 {
+    font-weight: 300;
+    font-size: 1em;
 }
-.cartheading h2{
+
+.cartheading h2 {
     text-align: center;
     font-weight: 700;
 }
-.removebtn{
+
+.removebtn {
     margin-right: 1em;
 }
-.removebtn p{
+
+.removebtn p {
     cursor: pointer;
     background-color: red;
-    color:white;
-    padding:0.2em 0.6em;
+    color: white;
+    padding: 0.2em 0.6em;
     font-weight: 600;
     border-radius: 0.4em;
     border: 1px solid gray;
 }
-.cartpara{
+
+.cartpara {
     text-align: center;
 }
-.addCart{
+
+.addCart {
     text-decoration: none;
 }
-.cart span{
-    color:red;
+
+.cart span {
+    color: red;
 }

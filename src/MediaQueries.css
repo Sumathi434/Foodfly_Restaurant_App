@@ -131,17 +131,9 @@
 
     .firmDetails .firmname,
     .firmDetails .cateArea {
-        width: 100%;
-        text-align: center;
-        margin: 0 auto;
         font-size: 0.9em;
 
     }
-
-    .firmDetails .cateArea {
-        width: 60%;
-    }
-
 
     /* filterbuttons */
     .filterButton {
@@ -163,9 +155,8 @@
     /* footer section */
     .footerHeader {
         width: 100%;
-        max-width: 60%;
+        max-width: 70%;
         display: block;
-        text-align: center;
     }
 
     .appImage img {
@@ -174,7 +165,6 @@
 
     .footerBelowsection {
         margin-top: -3em;
-
     }
 
     .allsections {
@@ -189,35 +179,29 @@
     }
 
     .section1 {
-        margin-top: 0em;
+        margin-top: 0;
         text-align: center;
-
     }
 
     .section1 h2 {
         padding-top: 1em;
         margin-top: 2em;
-        text-align: center;
     }
 
     .section2 {
         margin-top: 2em;
-        text-align: center;
     }
 
     .section3 {
         margin-top: 2em;
-        text-align: center;
     }
 
     .section4 {
         margin-top: 2em;
-        text-align: center;
     }
 
     .allsections ul li h3 {
         margin-top: 2em;
-        text-align: center;
         color: white;
     }
 
