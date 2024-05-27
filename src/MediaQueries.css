@@ -155,7 +155,7 @@
 
     .filterButton button {
         padding: 0.6em 1em;
-        font-size: 1em;
+        font-size: 0.5em;
     }
 
     /* footer section */
@@ -594,32 +594,37 @@
         display: flex;
         margin: 0 auto;
     }
+
     .footerHeader h2 {
         font-size: 1.4em;
     }
+
     .footerHeader {
         max-width: 70%;
-        width:100%;
+        width: 100%;
     }
-    
-    
+
+
     .appImage img {
         margin: 25px 5px;
         height: 60px;
         width: 180px;
     }
-    
+
     .footerBelowsection {
         background-color: #2a2438;
     }
+
     .allsections {
-       padding: 2em;
+        padding: 2em;
         margin-top: 0;
     }
+
     .productData {
-        padding:1em;
+        padding: 1em;
     }
-    .cart-items{
-        width:90%;
+
+    .cart-items {
+        width: 90%;
     }
 }
